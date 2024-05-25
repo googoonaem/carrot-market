@@ -1,0 +1,26 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "prettier.printWidth": 80, // 줄 바꿈을 할 최대 길이
+  "prettier.tabWidth": 2, // 탭 너비
+  "prettier.useTabs": false, // 탭 대신 스페이스 사용
+  "prettier.semi": true, // 명령문 끝에 세미콜론 추가
+  "prettier.singleQuote": true, // 홑따옴표 사용
+  "prettier.trailingComma": "es5", // 가능한 경우 후행 쉼표 추가
+  "prettier.bracketSpacing": true, // 객체 리터럴에서 괄호 사이에 공백 추가
+  "prettier.bracketSameLine": false, // JSX에서 마지막 `>`를 다음 줄로 내림
+  "prettier.arrowParens": "always", // 화살표 함수에서 인자가 하나일 때도 괄호 사용
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
+}
