@@ -18,7 +18,7 @@ async function main() {
     },
   });
 
-  console.log(smsToken);
+  // console.log(smsToken);
 }
 main();
 export default db;

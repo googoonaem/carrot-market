@@ -9,9 +9,8 @@ export default function FormInput({
   errors = [],
   name,
   ...rest
-}: FormInputProps &
-  InputHTMLAttributes<HTMLInputElement>) {
-  console.log(rest);
+}: FormInputProps & InputHTMLAttributes<HTMLInputElement>) {
+  // console.log(rest);
   return (
     <div className="flex flex-col gap-2">
       <input
@@ -20,10 +19,7 @@ export default function FormInput({
         {...rest}
       />
       {errors?.map((error, index) => (
-        <span
-          key={index}
-          className="text-red-500 font-medium"
-        >
+        <span key={index} className="text-red-500 font-medium">
           {error}
         </span>
       ))}
